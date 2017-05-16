@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.aspectbd.travelbangladesh.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <HorizontalScrollView
+        android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp">
+
+        <ImageButton
+            android:src="@drawable/final_history"
+            android:layout_width="70sp"
+            android:layout_height="65sp"
+            android:layout_marginLeft="5sp"
+            android:padding="10sp"/>
+        <ImageButton
+            android:src="@drawable/final_sundarban_big"
+            android:layout_width="70sp"
+            android:layout_height="65sp"
+            android:layout_marginLeft="5sp"
+            android:padding="10sp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="70sp"
+            android:layout_height="65sp"
+            android:layout_marginLeft="5sp"
+            android:padding="10dp"
+            android:src="@drawable/final_pahar" />
+
+        <ImageButton
+            android:src="@drawable/final_tracking"
+            android:layout_width="70sp"
+            android:layout_height="65sp"
+            android:layout_marginLeft="5sp"
+            android:padding="10sp"/>
+
+        <ImageButton
+            android:src="@drawable/final_somudro"
+            android:layout_width="70sp"
+            android:layout_height="65sp"
+            android:layout_marginLeft="5sp"
+            android:padding="10dp"/>
+        <ImageButton
+            android:src="@drawable/final_somudro"
+            android:layout_width="70sp"
+            android:layout_height="65sp"
+            android:layout_marginLeft="5sp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+            <GridView
+                android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="1"
+                android:verticalSpacing="10dp"
+                android:horizontalSpacing="10dp">
+            </GridView>
+
+
+</LinearLayout>
